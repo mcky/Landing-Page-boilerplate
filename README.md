@@ -1,4 +1,4 @@
-# Grunt-Boilerplate
+# Landing Page Boilerplate
 This is a basic project set up to create a landing page boilerplate. Includes posting via AJAX, google analytics, foundation and compiles via grunt.
 
 ## Usage
