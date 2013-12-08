@@ -8,6 +8,7 @@ This is a basic project set up to create a landing page boilerplate. Includes po
 - Run `grunt dist` to compile
 
 ## Customising 
+- Change the layout, foundation is included for easy scaffolding
 - Basic scss options are available at `app/styles/sass/partials/_vars.scss`
 - Add your own Google Analytics ID in `app/includes/ga.html` (will only compile in dist)
 - Change the body copy
