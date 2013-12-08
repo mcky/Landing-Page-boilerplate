@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ross Mackay</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- build:js:dist js/modernizr.min.js -->
+        <script src="js/modernizr.js"></script>
+    <!-- /build -->
+    
+  </head>
+<body>
+<div class="page">
+    <h1 class="page__heading">Landing page</h1>
+    <p class="page__intro">Hey there, this is a basic landing page boilerplate. Run <code>grunt</code> on the command line to see it auto-compile and refresh in your browser across devices. When you're done run <code>grunt dist</code> to compile and minify it all.</p>
+    <p class="page__subscribe--text">Here's some text to try and convince people to subscribe. The intro text above will stay but this will dissapear on a successfull form submit.</p>
+    
+    <div id="mailchimp">
+        <!-- don't forget to paste in your mailchimp link here" -->
+        <form action="http://mcky.us4.list-manage1.com/subscribe/post?u=a2fe8faa613cc7797fb63df2d&amp;id=2efdea6770" method="post" id="mailchimp__form" name="mailchimp__form" class="mailchimp__form validate" target="_blank" novalidate>
+            
+            <input type="email" value="" name="EMAIL" class="mailchimp__form--email" id="mailchimp__form--email" placeholder="Email" required>
+            
+            <label class="mailchimp__form--error" for="mailchimp__form--email"></label>
+            <input type="submit" value="Sign me up" name="subscribe" id="mailchimp__form--button" class="mailchimp__form--button">
+        </form>
+        
+        <div class="mailchimp__success">
+            <p class="mailchimp__success--message">Form submitted successfully! Write a post-subscribe message here for them. Edit the twitter url below with what you want to tweet about.</p>
+            <a href="http://twitter.com/home?status=Your%20success%20message" target="_blank" class="twitter__share--button">
+                <span class="twitter__share--icon">t </span> Post on twitter.
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- build:js:dist js/app.min.js -->
+<script src="js/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/ajaxchimp.js"></script>
+<script src="js/functions.js"></script>
+
+<script>
+  $(document).foundation();
+</script>
+<!-- /build -->
+
+<!-- build:include:dist includes/ga.html -->
+
+<!-- /build -->
+  </body>
+</html>

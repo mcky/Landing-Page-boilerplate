@@ -1,0 +1,74 @@
+body {
+    padding-top: 2em;
+    color: $text;
+    background: $background;
+}
+
+.page {
+    @extend .columns, .small-centered, .small-10, .medium-8, .large-6;
+}
+
+.page__heading {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.6em;
+}
+
+code {
+    color: lighten($text, 10%);
+    font-weight: normal;
+}
+
+a {
+    color: $primary;
+    &:hover {
+        color: darken($primary, 10%);
+    }
+}
+
+.mailchimp__form--error--active {
+    padding: 0.6em;
+    background: #f04124;
+    color: white;
+    margin-bottom: 0;
+}
+
+.mailchimp__form--email {
+    font-size: 16px!important;
+    margin-bottom: 0!important;
+}
+
+.button {
+    background: $primary;
+    &:hover, &:active, &:focus {
+        background: darken($primary, 5%);
+    }
+}
+
+.button--full-width {
+    @extend .button;
+    width: 100%;
+}
+
+.mailchimp__form--button {
+    @extend .button--full-width;
+    margin-top: 1em;
+}
+
+.mailchimp__success {
+    display: none;
+}
+  
+.twitter__share--button {
+    @extend .button--full-width;
+    background: $twitter;
+    &:hover {
+        background: darken($twitter, 10%);
+    }
+}
+
+.twitter__share--icon {
+    font-family: "icon";
+}
+
+@font-face { font-family:icon; src: url('http://bennettfeely.com/fonts/icons.woff'); }
