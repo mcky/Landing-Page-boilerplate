@@ -30,4 +30,5 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 - [Grunt Boilerplate](http://integralist.co.uk/Grunt-Boilerplate.html)
 - [Using Grunts Config API](http://integralist.co.uk/Using-Grunts-Config-API.html)
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/e48b685268554378ec1d8ee94f449053 "githalytics.com")](http://githalytics.com/mcky/Landing-Page-boilerplate)
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/2fd4e554bc413105bdd187ed31871be7 "githalytics.com")](http://githalytics.com/mcky/Landing-Page-boilerplate)
