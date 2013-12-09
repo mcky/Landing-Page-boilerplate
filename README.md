@@ -1,10 +1,14 @@
 # Landing Page Boilerplate
 This is a basic project set up to create a landing page boilerplate. Includes posting via AJAX, google analytics, foundation and compiles via grunt.
 
+## Grunt
+If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a Gruntfile as well as install and use Grunt plugins. To Install grunt globally run:  
+`npm install -g grunt-cli`
+
 ## Usage
 - From the directory run `bundle install`
 - Run `grunt` to automatically watch and compile sass and inject it into the browser using [Browser sync](https://github.com/shakyShane/grunt-browser-sync) (also syncs html changes, scrolls, clicks and form inputs)
-- Edit CSS and HTML as you wish
+- Edit Sass and HTML as you wish
 - Run `grunt dist` to compile
 
 ## Customising 
@@ -25,3 +29,5 @@ This is a basic project set up to create a landing page boilerplate. Includes po
 ## Help using Grunt
 - [Grunt Boilerplate](http://integralist.co.uk/Grunt-Boilerplate.html)
 - [Using Grunts Config API](http://integralist.co.uk/Using-Grunts-Config-API.html)
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/e48b685268554378ec1d8ee94f449053 "githalytics.com")](http://githalytics.com/mcky/Landing-Page-boilerplate)
